@@ -4,8 +4,10 @@ def turn(board)
   input_to_index(user_input)
   
  if valid_move?(board,input_to_index) 
-   puts "Please enter 1-9:"
+   move
   end
+  
+  
 end
 
 
